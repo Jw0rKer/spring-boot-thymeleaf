@@ -1,0 +1,1 @@
+create table weather (id bigint not null auto_increment, humidity float, name varchar(255), pressure float, temp float, temp_max float, temp_min float, primary key (id));
